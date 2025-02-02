@@ -2,6 +2,8 @@
 
 Este repositório contém o código-fonte e a documentação para a atividade prática da Unidade 4 - Capítulo 4 (Interrupções) do curso de sistemas embarcados, referente a aula Síncrona do dia 27/01/2025.
 
+![image](https://github.com/user-attachments/assets/a01ead39-8c4c-4efe-804c-79700c946baa)
+
 ## 🎯 Objetivos
 
 ### Compreensão
