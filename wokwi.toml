@@ -1,4 +1,0 @@
-[wokwi]
-version = 1
-firmware = 'build/Tarefa_U4_aula_sinc_20_01.uf2'
-elf = 'build/Tarefa_U4_aula_sinc_20_01.elf'
