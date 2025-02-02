@@ -21,7 +21,7 @@ int led_colors[3][3] = {
 };
 
 //Função para inicializar os leds (O led vermelho já inicia ligado)
-void init_leds()
+void init_all_leds()
 {
     gpio_init(LED_RED);
     gpio_set_dir(LED_RED, GPIO_OUT);
@@ -55,7 +55,7 @@ bool repeating_timer_callback(struct repeating_timer *t)
 int main()
 {
     stdio_init_all();
-    init_leds();
+    init_all_leds();
 
     struct repeating_timer timer;
 
