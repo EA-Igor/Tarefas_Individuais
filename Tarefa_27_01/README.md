@@ -2,7 +2,7 @@
 
 Este repositório contém o código-fonte e a documentação para a atividade prática da Unidade 4 - Capítulo 4 (Interrupções) do curso de sistemas embarcados, referente a aula Síncrona do dia 27/01/2025.
 
-[Link do video de apresentação](https://youtu.be/z9qfMr6r9OU)
+[Link do vídeo de apresentação](https://youtu.be/z9qfMr6r9OU)
 ---
 
 <div align="center">
@@ -74,4 +74,4 @@ O projeto utiliza os seguintes componentes conectados à placa BitDogLab:
   - Demonstração do funcionamento do projeto.
   - Explicação das funcionalidades implementadas.
   - Execução na placa **BitDogLab**.
-- [Link do video](https://youtu.be/z9qfMr6r9OU)
+- [Link do vídeo](https://youtu.be/z9qfMr6r9OU)
