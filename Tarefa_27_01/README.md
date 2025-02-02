@@ -4,7 +4,7 @@ Este repositório contém o código-fonte e a documentação para a atividade pr
 ---
 
 <div align="center">
-  <img src="[https://github.com/user-attachments/assets/f60302d4-a989-43ed-bc72-693ee507aac9](https://github.com/user-attachments/assets/a01ead39-8c4c-4efe-804c-79700c946baa)" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/a01ead39-8c4c-4efe-804c-79700c946baa" alt="Descrição da imagem">
 </div>
 
 ---
