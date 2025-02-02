@@ -1,7 +1,13 @@
 # 🚦 Atividade 1: Temporizador Periódico
 
 Este repositório contém o código-fonte e a documentação para a atividade prática 1 da Unidade 4 - Capítulo 5 (Temporizador periódico) do curso de sistemas embarcados, referente à aula Síncrona do dia 29/01/2025.
+---
 
+<div align="center">
+  <img src="https://private-user-images.githubusercontent.com/133886779/408912682-af34295b-8319-43eb-ac23-c5de777fc9ca.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzg1Mzg2NjEsIm5iZiI6MTczODUzODM2MSwicGF0aCI6Ii8xMzM4ODY3NzkvNDA4OTEyNjgyLWFmMzQyOTViLTgzMTktNDNlYi1hYzIzLWM1ZGU3NzdmYzljYS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIwMlQyMzE5MjFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hOTdjYjE0MjE4MWE4NDMzNjZkNzg3ZWNiNDM2YWI3YjIyODVhM2JkNzdhYmM1MTU5MmM5ZWRjMjVlMzhlOTNmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.-fj2-I2q3_WdoibGFY92kcVxTKFP42CxDCkcxOQ6PQE" alt="Descrição da imagem">
+</div>
+
+---
 ## 📝 Descrição
 
 Esta atividade tem como objetivo projetar um semáforo utilizando a função `add_repeating_timer_ms()`, presente no *Pico SDK*, para alternar entre os sinais de trânsito com um intervalo de **3 segundos**. A implementação deve ser realizada em um **Raspberry Pi Pico W**, simulando os seguintes componentes:
