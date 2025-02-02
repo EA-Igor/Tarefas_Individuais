@@ -49,8 +49,7 @@ O projeto utiliza os seguintes componentes conectados à placa BitDogLab:
 
 ### 📥 Clonando o Repositório
 ```bash
-  git clone https://github.com/seu-usuario/nome-do-repositorio.git
-  cd nome-do-repositorio
+  git clone https://github.com/EA-Igor/Tarefas_Individuais.git
 ```
 
 ### 🔧 Compilação e Upload
@@ -67,11 +66,4 @@ O projeto utiliza os seguintes componentes conectados à placa BitDogLab:
   - Demonstração do funcionamento do projeto.
   - Explicação das funcionalidades implementadas.
   - Execução na placa **BitDogLab**.
-
-## 📜 Licença
-
-Este projeto está licenciado sob a **MIT License** - consulte o arquivo LICENSE para mais detalhes.
-
----
-### 📌 Nota Final
-Desenvolvido para a atividade prática da **Unidade 4 - Capítulo 4 (Interrupções)** do curso de sistemas embarcados. 🎯
+- [Link do video](https://youtu.be/z9qfMr6r9OU)
