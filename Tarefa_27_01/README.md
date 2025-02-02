@@ -1,9 +1,13 @@
 # 📡 Projeto: Interrupções no Microcontrolador RP2040
 
 Este repositório contém o código-fonte e a documentação para a atividade prática da Unidade 4 - Capítulo 4 (Interrupções) do curso de sistemas embarcados, referente a aula Síncrona do dia 27/01/2025.
+---
 
-![image](https://github.com/user-attachments/assets/a01ead39-8c4c-4efe-804c-79700c946baa)
+<div align="center">
+  <img src="[https://github.com/user-attachments/assets/f60302d4-a989-43ed-bc72-693ee507aac9](https://github.com/user-attachments/assets/a01ead39-8c4c-4efe-804c-79700c946baa)" alt="Descrição da imagem">
+</div>
 
+---
 ## 🎯 Objetivos
 
 ### Compreensão
