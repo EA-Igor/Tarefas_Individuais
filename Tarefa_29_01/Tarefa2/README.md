@@ -79,17 +79,17 @@ Instale o VS Code e a extensão Wokwi para simulação do código.
 2️⃣ Compilar o Código
 
 Clone este repositório:
-
+ ```sh
 git clone https://github.com/seu-usuario/atividade2_temporizador.git
 cd atividade2_temporizador
-
+```
 Compile o código utilizando o CMake:
-
+```sh
 mkdir build
 cd build
 cmake ..
 make
-
+```
 3️⃣ Simular no Wokwi
 
 Abra o VS Code e a extensão Wokwi.
