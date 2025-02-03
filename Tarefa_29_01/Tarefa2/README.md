@@ -1,4 +1,4 @@
-#🚦 Atividade 2: Temporizador de um Disparo (One Shot)
+# 🚦 Atividade 2: Temporizador de um Disparo (One Shot)
 
 Este repositório contém o código-fonte e a documentação para a atividade prática 2 da Unidade 4 - Capítulo 5 (Temporizador de um Disparo) do curso de sistemas embarcados, referente à aula Síncrona do dia 29/01/2025.
 ---
