@@ -8,7 +8,7 @@ Este repositório contém o código-fonte e a documentação para a atividade pr
 </div>
 
 ---
-📝 Descrição
+## 📝 Descrição
 
 Esta atividade tem como objetivo projetar um sistema de temporização utilizando a função add_alarm_in_ms(), presente no Pico SDK, para acionar LEDs a partir do clique em um botão (pushbutton). A implementação deve ser realizada em um Raspberry Pi Pico W, simulando os seguintes componentes:
 
@@ -30,7 +30,7 @@ Após mais 3 segundos, o último LED é desligado.
 
 O botão só pode ser pressionado novamente após o desligamento de todos os LEDs.
 
-✅ Requisitos da Atividade
+## ✅ Requisitos da Atividade
 
 O acionamento dos LEDs deve ser realizado apenas quando o botão for pressionado.
 
@@ -44,9 +44,9 @@ O experimento deve ser realizado no VS Code, utilizando a extensão Wokwi para s
 
 (Opcional) Implementar uma rotina de debounce via software para o botão.
 
-🏗️ Estrutura do Projeto
+## 🏗️ Estrutura do Projeto
 
-🛠️ Hardware Utilizado
+### 🛠️ Hardware Utilizado
 
 Microcontrolador: Raspberry Pi Pico W
 
@@ -56,7 +56,7 @@ Resistores: 330 Ω conectados em série com cada LED
 
 Botão: Pushbutton (GPIO 5)
 
-⚙️ Funcionamento do Código
+###⚙️ Funcionamento do Código
 
 Os LEDs são configurados como saída e o botão como entrada.
 
@@ -66,9 +66,9 @@ A função add_alarm_in_ms() é utilizada para criar atrasos de 3 segundos entre
 
 O botão é desabilitado durante o ciclo de temporização e só pode ser pressionado novamente após o último LED ser desligado.
 
-🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-1️⃣ Configurar o Ambiente
+### 1️⃣ Configurar o Ambiente
 
 Antes de executar o código, é necessário configurar o ambiente de desenvolvimento:
 
@@ -76,7 +76,7 @@ Instale o Raspberry Pi Pico SDK e configure o Toolchain (compilador e dependênc
 
 Instale o VS Code e a extensão Wokwi para simulação do código.
 
-2️⃣ Compilar o Código
+### 2️⃣ Compilar o Código
 
 Clone este repositório:
  ```sh
@@ -90,13 +90,13 @@ cd build
 cmake ..
 make
 ```
-3️⃣ Simular no Wokwi
+### 3️⃣ Simular no Wokwi
 
 Abra o VS Code e a extensão Wokwi.
 
 Execute a simulação.
 
-⚠️ Observações
+### ⚠️ Observações
 
 Caso os LEDs não acendam, verifique as conexões e se os GPIOs estão corretamente configurados.
 
