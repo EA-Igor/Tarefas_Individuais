@@ -29,5 +29,5 @@ Acesse cada sub-repositório pelos links acima para mais detalhes sobre cada ati
 
 ---
 
-📌 **Status:** Todas as atividades foram implementadas e testadas com sucesso no **BitDogLab e Wokwi**, seguindo os requisitos estabelecidos.
+**Status:** Todas as atividades foram implementadas e testadas com sucesso no **BitDogLab e Wokwi**, seguindo os requisitos estabelecidos.
 
