@@ -10,3 +10,24 @@
 ## Aula 29/01/2025
 ### [Tarefa 1](https://github.com/EA-Igor/Tarefas_Individuais/tree/main/Tarefa_29_01/Tarefa1)
 ### [Tarefa 2](https://github.com/EA-Igor/Tarefas_Individuais/tree/main/Tarefa_29_01/Tarefa2)
+
+## Tecnologias Utilizadas
+
+- **Placa:** Raspberry Pi Pico W
+- **Linguagem:** C
+- **SDK:** Raspberry Pi Pico SDK
+- **Simulação:** BitDogLab e Wokwi
+- **Ambiente de Desenvolvimento:** VS Code
+
+## Como Clonar o Repositório Central
+
+```bash
+git clone https://github.com/EA-Igor/Tarefas_Individuais.git
+```
+
+Acesse cada sub-repositório pelos links acima para mais detalhes sobre cada atividade.
+
+---
+
+📌 **Status:** Todas as atividades foram implementadas e testadas com sucesso no **BitDogLab e Wokwi**, seguindo os requisitos estabelecidos.
+
