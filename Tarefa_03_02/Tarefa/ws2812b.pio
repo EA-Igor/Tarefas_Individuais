@@ -35,7 +35,7 @@ void ws2812b_program_init(PIO pio, uint sm, uint offset, uint pin, float freq) {
     
     // Configura o clock para os LEDs dinamicamente com base no freq passado como parametro
     float prescaler = clock_get_hz(clk_sys) / (10.f * freq); // 10 cycles per transmission, freq is frequency of encoded bits.
-    sm_config_set_clkdiv(&c, prescaler);
+    sm_config_set_clkdiv(&c,prescaler);
     
     // Inicializa a máquina de estados com a configuração
     pio_sm_init(pio, sm, offset, &c);
