@@ -225,6 +225,9 @@ void gpio_callback(uint gpio, uint32_t events)
             {
                 printf("LED verde Desativado\n");
                 ssd1306_fill(&ssd, !cor); // Limpa o display
+                ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor); // Desenha um retângulo
+                ssd1306_draw_string(&ssd, "CEPEDI   TIC37", 8, 10); // Desenha uma string
+                ssd1306_draw_string(&ssd, "Igor Almeida", 15, 48); // Desenha uma string  
                 ssd1306_draw_string(&ssd, "Verde          suspenso", 30, 30); // Desenha uma string
                 ssd1306_send_data(&ssd); // Atualiza o display
             }
@@ -232,6 +235,9 @@ void gpio_callback(uint gpio, uint32_t events)
             {
                 printf("LED verde Ativado\n");
                 ssd1306_fill(&ssd, !cor); 
+                ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor); // Desenha um retângulo
+                ssd1306_draw_string(&ssd, "CEPEDI   TIC37", 8, 10); // Desenha uma string
+                ssd1306_draw_string(&ssd, "Igor Almeida", 15, 48); // Desenha uma string  
                 ssd1306_draw_string(&ssd, "Verde ativo", 30, 30); 
                 ssd1306_send_data(&ssd); 
             }
@@ -248,6 +254,9 @@ void gpio_callback(uint gpio, uint32_t events)
             {
                 printf("LED azul Desativado\n");
                 ssd1306_fill(&ssd, !cor); 
+                ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor); // Desenha um retângulo
+                ssd1306_draw_string(&ssd, "CEPEDI   TIC37", 8, 10); // Desenha uma string
+                ssd1306_draw_string(&ssd, "Igor Almeida", 15, 48); // Desenha uma string  
                 ssd1306_draw_string(&ssd, "Azul           suspenso", 30, 30); 
                 ssd1306_send_data(&ssd); 
             }
@@ -255,6 +264,9 @@ void gpio_callback(uint gpio, uint32_t events)
             {
                 printf("LED azul Ativado\n");
                 ssd1306_fill(&ssd, !cor); 
+                ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor); // Desenha um retângulo
+                ssd1306_draw_string(&ssd, "CEPEDI   TIC37", 8, 10); // Desenha uma string
+                ssd1306_draw_string(&ssd, "Igor Almeida", 15, 48); // Desenha uma string  
                 ssd1306_draw_string(&ssd, "Azul ativo", 30, 30); 
                 ssd1306_send_data(&ssd); 
             }
