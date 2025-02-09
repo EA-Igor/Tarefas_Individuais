@@ -339,6 +339,9 @@ int main()
         }
 
         ssd1306_fill(&ssd, !cor); // Limpa o display
+        ssd1306_rect(&ssd, 3, 3, 122, 58, cor, !cor); // Desenha um retângulo
+        ssd1306_draw_string(&ssd, "CEPEDI   TIC37", 8, 10); // Desenha uma string
+        ssd1306_draw_string(&ssd, "Igor Almeida", 15, 48); // Desenha uma string      
         ssd1306_draw_char(&ssd, c, 60, 30); // Desenha o caractere no display
         ssd1306_send_data(&ssd); // Atualiza o display
     }
