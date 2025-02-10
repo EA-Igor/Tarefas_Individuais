@@ -7,7 +7,7 @@ Este repositório contém o código-fonte e a documentação para a atividade pr
 ---
 
 <div align="center">
-  <img src="![Image](https://github.com/user-attachments/assets/7bb3c709-6667-4671-9b88-847643ff4cc8)" alt="Descrição da imagem">
+  <img src="https://github.com/user-attachments/assets/7bb3c709-6667-4671-9b88-847643ff4cc8" alt="Descrição da imagem">
 </div>
 
 ---
