@@ -7,6 +7,12 @@ Este repositório contém o código-fonte e a documentação para a atividade pr
 
 ---
 
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/4253a27f-e135-4409-a283-20f29f11e863" alt="Descrição da imagem">
+</div>
+
+---
+
 ## 🎯 Objetivos
 
 ### Compreensão
