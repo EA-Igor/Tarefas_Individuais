@@ -19,7 +19,7 @@ Este repositório contém o código-fonte e a documentação para a atividade pr
 - Implementação do **controle de um servomotor** via **PWM (Pulse Width Modulation)** no RP2040.
 - Configuração do **ciclo ativo do PWM** para diferentes posições do servomotor.
 - Simulação e validação do funcionamento do código no **Wokwi**.
-- Integração com o LED RGB para observação do comportamento do PWM.
+- Integração com o LED RGB para observação do comportamento do PWM ao mudarmos o pino para o GPIO 12.
 
 ### Prática
 - **Configuração da GPIO 22** para gerar um sinal PWM de **50Hz (período de 20ms)**.
