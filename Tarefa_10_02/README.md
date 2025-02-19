@@ -2,6 +2,8 @@
 
 *Projeto desenvolvido para a disciplina de Sistemas Embarcados utilizando a placa RP2040 (BitDogLab).*
 
+[Link do vídeo](https://youtu.be/_i7wDwEkz80)
+
 ## 📌 **Objetivo**
 O objetivo desta tarefa é consolidar os conhecimentos sobre o uso do conversor Analógico-Digital (ADC) no RP2040 e explorar a integração com um display OLED SSD1306 via I2C. O projeto utiliza um joystick para controlar LEDs RGB via PWM e movimentar um quadrado na tela do display.
 
