@@ -19,8 +19,8 @@
 #define I2C_ADDR 0x3C
 
 // Configurações PWM
-#define DIVIDER_PWM 100
-#define WRAP_PERIOD 24999
+#define DIVIDER_PWM 80    
+#define WRAP_PERIOD 19999 
 
 // Estrutura do display
 ssd1306_t ssd;
@@ -109,33 +109,38 @@ int main() {
         adc_select_input(0);
         uint16_t y_value = adc_read();
 
-        // INVERTENDO O MOVIMENTO DO QUADRADO
-        uint x_pos = 120 - ((120 * x_value) / 4096);  // Inversão do eixo X
-        uint y_pos = 56 - ((56 * y_value) / 4096);    // Inversão do eixo Y
+        uint x_pos = 120 - ((120 * x_value) / 4096);  // eixo X
+        uint y_pos = 56 - ((56 * y_value) / 4096);    // eixo Y
 
         // Atualiza display
         ssd1306_fill(&ssd, false);
         
-        // Desenho das bordas
+        // Desenho das bordas 
         switch (border_type) {
             case 'A': 
-                ssd1306_hline(&ssd, 4, 124, 1, true); 
-                ssd1306_hline(&ssd, 4, 124, 63, true); 
+                ssd1306_hline(&ssd, 2, 125, 2, true); 
+                ssd1306_hline(&ssd, 2, 125, 61, true); 
                 break;
             case 'B': 
-                ssd1306_vline(&ssd, 1, 0, 63, true); 
-                ssd1306_vline(&ssd, 126, 0, 63, true); 
+                ssd1306_vline(&ssd, 2, 2, 61, true); 
+                ssd1306_vline(&ssd, 125, 2, 61, true);
+                ssd1306_pixel(&ssd, 2, 2, false);
+                ssd1306_pixel(&ssd, 125, 2, false);
+                ssd1306_pixel(&ssd, 2, 61, false);
+                ssd1306_pixel(&ssd, 125, 61, false);
                 break;
             case 'C': 
-                ssd1306_hline(&ssd, 4, 124, 1, true); 
-                ssd1306_vline(&ssd, 126, 0, 63, true); 
+                ssd1306_hline(&ssd, 2, 125, 2, true); 
+                ssd1306_vline(&ssd, 2, 2, 61, true); 
                 break;
             case 'D': 
-                ssd1306_hline(&ssd, 4, 124, 63, true); 
-                ssd1306_vline(&ssd, 1, 0, 63, true); 
+                ssd1306_hline(&ssd, 2, 125, 61, true); 
+                ssd1306_vline(&ssd, 125, 2, 61, true); 
                 break;
             case 'E': 
-                ssd1306_rect(&ssd, 1, 1, 126, 62, true, false); 
+                ssd1306_rect(&ssd, 10, 10, 108, 44, true, false);
+                ssd1306_pixel(&ssd, 10, 32, false);
+                ssd1306_pixel(&ssd, 118, 32, false);
                 break;
         }
         
